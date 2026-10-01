@@ -6,7 +6,7 @@ O Mastra atua como **control plane** (workflows, retry, observabilidade, studio 
 
 > A visão completa de longo prazo (API, dispatcher, queue, PR automation, integrações) está em [docs/DESIGN-VISION.md](docs/DESIGN-VISION.md).
 
-<video src="docs/media/mastra_orquestrator.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/pedro-moraesbatista/mastra-orchestrator/main/docs/media/mastra_orquestrator.mp4" controls width="100%"></video>
 
 ---
 
