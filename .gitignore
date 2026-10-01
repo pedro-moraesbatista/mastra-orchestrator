@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+.mastra/
+.mastra/output/
+.mastra/.build/
+
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Mastra dev/studio artifacts
+.mastra/dev.lock
+.mastra/mastra-packages.json
+
+# Package archives
+*.tgz
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Worktrees
+.worktrees/
+
+# Workspace data
+workspace/

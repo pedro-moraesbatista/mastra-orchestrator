@@ -1,0 +1,32 @@
+{
+  "name": "mastra-orchestrator",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "mastra dev",
+    "studio": "mastra studio",
+    "cli": "bun run src/cli/index.ts",
+    "task": "bun run src/cli/index.ts task",
+    "health": "bun run src/cli/index.ts health",
+    "agents": "bun run src/cli/index.ts agents",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "vitest": "^5.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.72.0",
+    "@mastra/libsql": "^1.24.0",
+    "@mastra/mcp": "^2.1.1",
+    "@mastra/observability": "^1.18.2",
+    "@opencode-ai/sdk": "^1.18.33",
+    "mastra": "^1.31.0",
+    "zod": "^4.6.5"
+  }
+}
